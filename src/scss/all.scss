@@ -1,0 +1,30 @@
+@import url('./variables.scss');
+
+@import url('vendor/fonts.scss');
+// @import url('vendor/reset.scss');
+@import url('components/header.scss');
+// Color system
+
+$white:    #fff;
+$yellow:   #ffc80a;
+$grey:     #a5a5a5;
+$black:    #000;
+
+$clr-accent:    $yellow;
+$clr-body:      $white;
+$clr-text:      $black;
+
+// Typography
+
+$ff: 'Open Sans', sans-serif;
+
+$fw-l: 300;
+$fw-r: 400;
+$fw-b: 600;
+
+$h1: (49 / 16) * 1rem;
+$h4: (36 / 16) * 1rem;
+
+.header {
+    font-family: $ff;
+}
